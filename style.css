@@ -399,11 +399,28 @@ input[type="search"] {
     width:160px;
     
   }
-  .gethired{
+  .hiredimages{
     overflow: auto;
   }
   .avatar{
     padding-left: 4px;
+  }
+  .topnav{
+    justify-content: flex-start;
+    align-self: flex-start;
+    padding-left: 10px;
+  }
+  .host{
+    display: none;
+  }
+  .avatar{
+    padding-left: 30px;
+  }
+  .texth{
+    display: none;
+  }
+  .scroll{
+    overflow: auto;
   }
 }
 
@@ -412,4 +429,5 @@ input[type="search"] {
 }
 .ending img{
   border-radius: 10px;
+  
 }
